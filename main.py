@@ -64,6 +64,8 @@ def beginningPage():
     """
     The function represents an initial state of ATM at launch
     """
+    global choiceIs
+    choiceIs = None
     inquiry.set('')
     buttonUpper.configure(state='disabled')
     buttonLower.configure(state='disabled')
